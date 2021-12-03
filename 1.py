@@ -2,6 +2,7 @@ def format_input(raw):
     lines = list(map(int, raw.split("\n")))
     return lines
 
+
 def part1(depths):
     prev = float("inf")
     diffs = 0
@@ -11,9 +12,10 @@ def part1(depths):
         prev = depth
     return diffs
 
+
 def part2(depths):
     start = 0
-    prev = float('inf')
+    prev = float("inf")
     curr = depths[0] + depths[1]
     diffs = 0
 
@@ -24,8 +26,9 @@ def part2(depths):
         prev = curr
         curr -= depths[start]
         start += 1
-    
+
     return diffs
+
 
 if __name__ == "__main__":
     raw = open("data/1_part1.txt", "r").read()

@@ -2,6 +2,7 @@ def format_input(raw):
     rows = raw.split("\n")
     return rows
 
+
 def part1(rows):
     gamma, epsilon = 0, 0
     totals = [0] * len(rows[0])
@@ -19,6 +20,7 @@ def part1(rows):
         i *= 2
     return gamma * epsilon
 
+
 def most_common_bit(rows, i):
     half = len(rows) / 2
     ones = 0
@@ -26,6 +28,7 @@ def most_common_bit(rows, i):
         if row[i] == "1":
             ones += 1
     return 1 if ones >= half else 0
+
 
 def part2(rows):
     least, most = rows.copy(), rows.copy()
@@ -48,6 +51,7 @@ def part2(rows):
     co2_scrubber_rating = int(least[0], 2)
     life_support_rating = oxygen_generator_rating * co2_scrubber_rating
     return life_support_rating
+
 
 if __name__ == "__main__":
     raw = open("data/3_part1.txt", "r").read()
