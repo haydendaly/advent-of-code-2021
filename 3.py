@@ -54,12 +54,11 @@ def part2(rows):
 
 
 if __name__ == "__main__":
-    raw = open("data/3_part1.txt", "r").read()
+    raw = open("data/3.txt", "r").read()
     rows = format_input(raw)
     prod = part1(rows)
     print(prod)
 
-    raw = open("data/3_part2.txt", "r").read()
     rows = format_input(raw)
     rating = part2(rows)
     print(rating)

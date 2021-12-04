@@ -31,10 +31,10 @@ def part2(depths):
 
 
 if __name__ == "__main__":
-    raw = open("data/1_part1.txt", "r").read()
+    raw = open("data/1.txt", "r").read()
     depths = format_input(raw)
     print(part1(depths))
 
-    raw = open("data/1_part2.txt", "r").read()
+    raw = open("data/1.txt", "r").read()
     depths = format_input(raw)
     print(part2(depths))

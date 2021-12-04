@@ -4,7 +4,10 @@ def format_input(raw):
     boards = []
     for raw_board in rows[1:]:
         # beefy list comprehension
-        board = [[int(num) for num in line.split(" ") if num != ""] for line in raw_board.split("\n")]
+        board = [
+            [int(num) for num in line.split(" ") if num != ""]
+            for line in raw_board.split("\n")
+        ]
         boards.append(board)
     return input_stream, boards
 
@@ -22,8 +25,8 @@ def has_bingo(board, num):
     for i, row in enumerate(board):
         for j, col in enumerate(row):
             if board[i][j] == num:
-                board[i][j] += 100 # mark columns by incrementing by 100
-    
+                board[i][j] += 100  # mark columns by incrementing by 100
+
     # check rows for bingo
     for row in board:
         row_sum = 0
@@ -52,6 +55,7 @@ def has_bingo(board, num):
     #     if board[l - i - 1][i] >= 100:
     #         diag_sum_2 += 1
     # return diag_sum_1 == 5 or diag_sum_2 == 5
+
 
 def part1(input_stream, boards):
     winner_sum = 0
@@ -82,7 +86,6 @@ if __name__ == "__main__":
     result = part1(input_stream, boards)
     print(result)
 
-    raw = open("data/4.txt", "r").read()
     input_stream, boards = format_input(raw)
     result = part2(input_stream, boards)
     print(result)

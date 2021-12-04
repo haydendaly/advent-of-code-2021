@@ -32,12 +32,11 @@ def part2(instrs):
 
 
 if __name__ == "__main__":
-    raw = open("data/2_part1.txt", "r").read()
+    raw = open("data/2.txt", "r").read()
     instrs = format_input(raw)
     prod = part1(instrs)
     print(prod)
 
-    raw = open("data/2_part2.txt", "r").read()
     instrs = format_input(raw)
     prod = part2(instrs)
     print(prod)
