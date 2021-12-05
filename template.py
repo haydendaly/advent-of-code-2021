@@ -3,7 +3,7 @@ def format_input(raw):
     return rows
 
 
-def part1(depths):
+def part1(rows):
     return rows
 
 
