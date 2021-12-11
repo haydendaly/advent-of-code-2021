@@ -14,6 +14,7 @@
 | 8 | [Seven Segment Search](https://adventofcode.com/2021/day/8) | [python3](https://github.com/haydendaly/advent-of-code-2021/blob/main/8.py) |
 | 9 | [Smoke Basin](https://adventofcode.com/2021/day/9) | [python3](https://github.com/haydendaly/advent-of-code-2021/blob/main/9.py) |
 | 10 | [Syntax Scoring](https://adventofcode.com/2021/day/10) | [python3](https://github.com/haydendaly/advent-of-code-2021/blob/main/10.py) |
+| 11 | [Dumbo Octopus](https://adventofcode.com/2021/day/11) | [python3](https://github.com/haydendaly/advent-of-code-2021/blob/main/11.py) |
 
 ## Usage
 
