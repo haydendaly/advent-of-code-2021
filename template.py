@@ -16,6 +16,5 @@ if __name__ == "__main__":
     rows = format_input(raw)
     print(part1(rows))
 
-    raw = open("data/x.txt", "r").read()
     rows = format_input(raw)
     print(part2(rows))

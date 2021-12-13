@@ -16,6 +16,7 @@
 | 10 | [Syntax Scoring](https://adventofcode.com/2021/day/10) | [python3](https://github.com/haydendaly/advent-of-code-2021/blob/main/10.py) |
 | 11 | [Dumbo Octopus](https://adventofcode.com/2021/day/11) | [python3](https://github.com/haydendaly/advent-of-code-2021/blob/main/11.py) |
 | 12 | [Passage Pathing](https://adventofcode.com/2021/day/12) | [python3](https://github.com/haydendaly/advent-of-code-2021/blob/main/12.py) |
+| 13 | [Transparent Origami](https://adventofcode.com/2021/day/13) | [python3](https://github.com/haydendaly/advent-of-code-2021/blob/main/13.py) |
 
 ## Usage
 
