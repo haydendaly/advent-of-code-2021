@@ -2,7 +2,7 @@ from collections import defaultdict
 
 
 def format_input(raw):
-    rows = raw.split("\n\n")
+    rows = [row.split() for row in raw.split("\n\n")]
     base = rows[0]
     translations = defaultdict(str)
     for row in rows[1].split("\n"):
